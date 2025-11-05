@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sravya Avvari • Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Optional: Font Awesome (only for small UI icons; not used in project cards) -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Sticky Navbar ===== -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="#home" aria-label="Go to Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Sravya Avvari</span>
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact" class="btn btn--sm">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 1. Home (Hero) ===== -->
+    <section id="home" class="section hero container">
+      <div class="hero__text" data-reveal>
+        <p class="hero__kicker">USA • Data • Engineering • Analytics • ML</p>
+        <h1 class="hero__title">Data Professional<br /><span class="accent">Engineering</span> | <span class="accent">Analytics</span> | <span class="accent">Machine Learning</span></h1>
+        <p class="hero__subtitle">
+          I build reliable data systems, transform raw data into insights, and prepare ML-ready datasets.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn" target="_blank" rel="noopener"
+             href="https://www.linkedin.com/in/sravyaavvari15112002/">LinkedIn</a>
+
+          <a class="btn btn--ghost"
+             href="mailto:sravyaavvari5@gmail.com?subject=Hello%20Sravya&body=Hi%20Sravya,%0D%0A%0D%0A">
+             Email
+          </a>
+
+          <!-- Place a file named resume.pdf in the same folder to enable download -->
+          <a class="btn" target="_blank" rel="noopener"
+             href="https://docs.google.com/document/d/13AIwJdq6AhmvIaK95KdKWAz6uyr6SWQM/edit?usp=drive_link&ouid=104797693761051579671&rtpof=true&sd=true">Resume</a>
+
+
+        </div>
+      </div>
+
+      <!-- Profile photo (no project images elsewhere) -->
+      <!--<div class="hero__photo" data-reveal>
+        <img src="your-photo.jpg" alt="Sravya Avvari" />
+      </div>-->
+    </section>
+
+    <!-- ===== Divider ===== -->
+    <div class="divider container" aria-hidden="true"></div>
+
+    <!-- ===== 2. About Me ===== -->
+    <section id="about" class="section container" data-reveal>
+      <h2 class="section__title">About Me</h2>
+      <p class="paragraph">
+        Versatile Data Professional with 4+ years of experience across Data Engineering, Data Analytics, and Machine Learning.
+        Skilled at building real-time pipelines, transforming raw data into insights, and preparing ML-ready datasets using tools
+        like Azure, PySpark, Power BI, and Kafka. Experience in retail, finance, and healthcare domains.
+      </p>
+    </section>
+
+    <!-- ===== 3. Technical Skills ===== -->
+    <section id="skills" class="section container" data-reveal>
+      <h2 class="section__title">Technical Skills</h2>
+
+      <div class="skills">
+        <div class="skill__block">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python, SQL, PySpark</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>R (basic), Java (basic), MATLAB</li>
+            <li>Bash/Zsh, Linux CLI, Regex</li>
+            <li>Spark SQL, Structured Streaming</li>
+          </ul>
+        </div>
+
+        <div class="skill__block">
+          <h3>Cloud &amp; Data Platforms</h3>
+          <ul>
+            <li>Azure (Databricks, ADF, Synapse, ADLS, Purview, Key Vault)</li>
+            <li>AWS (Glue, Lambda, Redshift, EMR, S3)</li>
+            <li>Snowflake, Delta Lake</li>
+            <li>Azure DevOps</li>
+          </ul>
+        </div>
+
+        <div class="skill__block">
+          <h3>ETL &amp; Modeling</h3>
+          <ul>
+            <li>Airflow</li>
+            <li>Databricks</li>
+            <li>Kafka</li>
+            <li>Great Expectations</li>
+            <li>DBT (basic)</li>
+          </ul>
+        </div>
+
+        <div class="skill__block">
+            <h3>Visualization &amp; Reporting</h3>
+            <ul>
+              <li>Power BI (DAX, Power Query, Row-Level Security, Incremental Refresh)</li>
+              <li>Tableau (LOD Expressions, Parameter Actions, Story Points, Data Blending)</li>
+              <li>Excel (Pivot Tables, Power Pivot, Advanced Charts, VBA Automation)</li>
+              <li>Data Storytelling &amp; KPI Design (Interactive Dashboards, Drill-through Reports)</li>
+              <li>Custom Visuals &amp; Themes (Power BI Marketplace, Tableau Extensions)</li>
+              <li>SQL-based Reporting (Views, Stored Procedures, Query Optimization for BI)</li>
+              <li>Visualization Principles (Color Theory, Accessibility, Minimalist UI/UX)</li>
+              <li>Reporting Automation (Power Automate, Python + Power BI REST API)</li>
+              <li>Web-based Visualization (Plotly, Dash, Streamlit, Matplotlib, Seaborn)</li>
+              <li>Data Presentation (Storyboards, Executive Dashboards, Trend Analysis)</li>
+            </ul>
+          </div>
+          
+
+        <div class="skill__block">
+          <h3>DevOps &amp; Versioning</h3>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>GitHub Actions</li>
+            <li>Jenkins</li>
+          </ul>
+        </div>
+
+        <div class="skill__block">
+            <h3>Machine Learning &amp; AI</h3>
+            <ul>
+              <li>Supervised &amp; Unsupervised ML (Regression, Classification, Clustering)</li>
+              <li>Model Evaluation &amp; Optimization (Cross-Validation, Hyperparameter Tuning)</li>
+              <li>Feature Engineering, Data Preprocessing, Model Deployment</li>
+              <li>LLMs &amp; NLP (OpenAI GPT, LangChain, Hugging Face Transformers)</li>
+              <li>Vector Databases &amp; Retrieval (FAISS, Pinecone, Chroma)</li>
+              <li>Prompt Engineering &amp; API Integration for GenAI Solutions</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. Projects (no images/icons) ===== -->
+    <section id="projects" class="section container" data-reveal>
+      <h2 class="section__title">Projects</h2>
+
+      <div class="cards">
+        <!-- Customer Churn Prediction -->
+        <article class="card">
+          <h3 class="card__title">Customer Churn Prediction</h3>
+          <p class="card__desc">
+            Built a machine learning model to predict customer churn for a telecom dataset with ~85% accuracy,
+            applying feature engineering and cross-validation for robust performance.
+          </p>
+          <p class="card__tech"><strong>Tech:</strong> Python, Scikit-learn, Pandas</p>
+        </article>
+      
+        <!-- Claims Analytics Dashboard -->
+        <article class="card">
+          <h3 class="card__title">Claims Analytics Dashboard</h3>
+          <p class="card__desc">
+            Designed an end-to-end Azure Data Factory pipeline and Power BI dashboard to analyze insurance claims
+            KPIs, improving reporting efficiency by 80%.
+          </p>
+          <p class="card__tech"><strong>Tech:</strong> Azure Data Factory, SQL, Power BI</p>
+        </article>
+      
+        <!-- Netflix Content Insights Dashboard -->
+        <article class="card">
+          <h3 class="card__title">Netflix Content Insights Dashboard</h3>
+          <p class="card__desc">
+            Built an interactive Tableau dashboard using Kaggle’s Netflix dataset to visualize content trends,
+            popular genres, and country-wise distribution of shows and movies.
+          </p>
+          <p class="card__tech"><strong>Tech:</strong> Tableau, Python, Pandas, Excel</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== 5. Experience ===== -->
+    <section id="experience" class="section container" data-reveal>
+      <h2 class="section__title">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__header">
+            <h3>Data Engineering &amp; Analytics Lead</h3>
+            <span>Costco Wholesale — June 2024–Present</span>
+          </div>
+          <ul class="bullets">
+            <li>Built real-time data pipelines using Azure Databricks, Delta Lake &amp; Kafka for 800+ stores.</li>
+            <li>Unified enterprise data sources and automated quality validation with Great Expectations.</li>
+            <li>Delivered Power BI dashboards and ML-ready datasets for retail analytics and forecasting.</li>
+          </ul>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__header">
+            <h3>Data Engineer</h3>
+            <span>Capgemini — May 2022– June 2023</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed ETL pipelines using AWS Glue, EMR, and PySpark to unify financial data sources.</li>
+            <li>Built Redshift &amp; Snowflake marts accelerating financial reporting by 35%.</li>
+            <li>Automated Airflow workflows &amp; integrated PyDeequ validation for high-volume data streams.</li>
+            <li>Developed Power BI dashboards enabling faster KPI reporting for finance leadership.</li>
+          </ul>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__header">
+            <h3>Junior Data Engineer</h3>
+            <span>Capgemini — Aug 2021– May 2022</span>
+          </div>
+          <ul class="bullets">
+            <li>Developed ETL pipelines in Azure Data Factory, Python, and SQL improving data freshness by 45%.</li>
+            <li>Built Power BI reports for claims analytics &amp; retention KPIs supporting actuarial teams.</li>
+            <li>Integrated Great Expectations tests into ETL flows ensuring 99% accuracy across 50+GB daily data.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. Hobbies & Interests ===== -->
+    <section id="hobbies" class="section container" data-reveal>
+      <h2 class="section__title">Hobbies &amp; Interests</h2>
+      <p class="paragraph">
+        Beyond data, I enjoy exploring creative and relaxing hobbies. These include drawing portraits, watching movies,
+        reading books, cooking, and discovering great food. I’m passionate about both creativity and analysis —
+        whether it’s in the kitchen, at the canvas, or inside a dataset.
+      </p>
+    </section>
+
+    <!-- ===== 6. Contact Me ===== -->
+    <section id="contact" class="section container" data-reveal>
+      <h2 class="section__title">Contact Me</h2>
+
+      <!-- Accessible form; JS builds a mailto: when submitted -->
+      <form id="contact-form" class="form" autocomplete="on">
+        <div class="form__row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+
+        <div class="form__row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form__row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="How can I help?" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p class="form__note">This opens your email app with a prefilled message.</p>
+      </form>
+
+      <div class="contact__links">
+        <a href="mailto:sravyaavvari5@gmail.com" class="link">sravyaavvari5@gmail.com</a>
+        <span class="sep">•</span>
+        <a class="link" target="_blank" rel="noopener"
+           href="https://www.linkedin.com/in/sravyaavvari15112002/">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Sravya Avvari • Made with HTML/CSS/JS</span>
+      <a class="link" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
